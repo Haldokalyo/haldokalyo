@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('background-hutan.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #2f4f2f;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(59, 110, 59, 0.8);
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.foto-kerja {
+  max-width: 150px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 15px auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+section {
+  background-color: rgba(255, 255, 255, 0.85);
+  margin: 20px auto;
+  padding: 20px 30px;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+.project {
+  border-left: 4px solid #3b6e3b;
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #3b6e3b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: rgba(217, 234, 211, 0.8);
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #555;
+}
